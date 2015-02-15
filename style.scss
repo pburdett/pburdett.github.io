@@ -20,8 +20,9 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+//  font: 18px/1.4 $helvetica;
+  font-family: "adelle-sans", sans-serif; font-weight: 100; font-size: 14px; color: #2f2f2f;
+ // color: $darkGray;
 }
 
 .container {
