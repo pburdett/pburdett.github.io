@@ -1,3 +1,8 @@
+---
+layout: post
+title: An interesting maths problem
+---
+
 # Maths Problem
 
 I recently came across an interesting maths problem, aimed at 12-13year olds. It read...
