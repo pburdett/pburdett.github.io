@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An interesting maths problem
+title: Maths Problem
 ---
 
 # Maths Problem
@@ -13,7 +13,7 @@ Each different letter in the following addition sum represents a different digit
 
 P Q R D + T U V Q = T U R Q W
 
-Explaining your reasoning crefullt, find which letters correspond to which digits.
+Explaining your reasoning carefully, find which letters correspond to which digits.
 
 
 --------
@@ -39,7 +39,9 @@ for perm in itertools.permutations(range(0,10),8):
 		
 	[P,Q,R,S,T,U,V,W] = perm
 
-	if 10**3*(P+T-U) + 10**2*(Q+U-R) + 10**4*(-T) + 10*(R+V-Q) + (S+Q-W) == 0 and P*T != 0:
+	if 10**3*(P+T-U) + 10**2*(Q+U-R) + 10**4*(-T) + 10*(R+V-Q)
+		+ (S+Q-W) == 0 and P*T != 0:
+		
 		print
 		print 'Result'
 		print ' ' + str(P) + str(Q) + str(R) + str(S)
