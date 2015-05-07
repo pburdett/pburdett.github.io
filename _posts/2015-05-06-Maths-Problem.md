@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Maths Problem
+title: An interesting Maths Problem
 ---
-
-# Maths Problem
 
 I recently came across an interesting maths problem, aimed at 12-13year olds. It read...
 
@@ -11,7 +9,7 @@ I recently came across an interesting maths problem, aimed at 12-13year olds. It
 
 Each different letter in the following addition sum represents a different digit from 0-9 inclusive (neither P nor T are equal to zero, and not the digits are used)
 
-P Q R D + T U V Q = T U R Q W
+--> P Q R D + T U V Q = T U R Q W <--
 
 Explaining your reasoning carefully, find which letters correspond to which digits.
 
