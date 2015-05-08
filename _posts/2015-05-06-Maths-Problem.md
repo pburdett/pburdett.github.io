@@ -35,11 +35,11 @@ I will introduce some carry notation. Assuming \\( k_{i} = 1 \\) or \\( 0 \\), t
 
 and sd 
 
-\\[ R + V + k_{1} = 10 \times k_{2} + Q \\]
+\\( R + V + k_{1} = 10 \times k_{2} + Q \\)
 
-Q + U + k_{2} = 10 \times k_{3} + R 
+\\( Q + U + k_{2} = 10 \times k_{3} + R \\) 
 
-P + T + k_{3} = 10 \times k_{4} + U
+\\( P + T + k_{3} = 10 \times k_{4} + U \\)
 
 Since \\( T = 1 \\), we know \\( k_{4} = 1 \\)
 
