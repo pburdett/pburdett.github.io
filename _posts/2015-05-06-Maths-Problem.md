@@ -31,9 +31,8 @@ Since \\( T = 1, 1000 \lt (b) \lt 2000 \Rightarrow P = 8 \\) or \\( 9 \\) to ens
 
 I will introduce some carry notation. Assuming \\( k_{i} = 1 \\) or \\( 0 \\), the following equations hold:
 
-\\[ S + Q = 10 \times k_{1} + W \\]
-	
-\\[ R + V + k_{1} = 10 \times k_{2} + Q \\]
+\\[ S + Q = 10 \times k_{1} + W
+R + V + k_{1} = 10 \times k_{2} + Q \\]
 
 \\[ Q + U + k_{2} = 10 \times k_{3} + R \\]
 
@@ -41,9 +40,9 @@ I will introduce some carry notation. Assuming \\( k_{i} = 1 \\) or \\( 0 \\), t
 
 Since \\( T = 1 \\), we know \\( k_{4} = 1 \\)
 
-\\( if P = 8 \Rightarrow Q + U \\) must result in a carry \\( \Rightarrow k_{3} = 1 \Rightarrow P + T + k_{3} = 10 \Rightarrow U = 0 \\)
+If \\( P = 8 \Rightarrow Q + U \\) must result in a carry \\( \Rightarrow k_{3} = 1 \Rightarrow P + T + k_{3} = 10 \Rightarrow U = 0 \\)
 
-if P = 9 => Q + U might not result in a carry => P + T + k<sub>3</sub> = 9 + 1 + {1 or 0} = 10 or 11
+If \\( P = 9 \Rightarrow Q + U \\) might not result in a carry \\( \Rightarrow P + T + k_{3} \gt = 9 + 1 + k_{3} = 10 or 11 \\)
 
 if 11 => U = 1 which is a contradiction as T = 1, but if 10 => U = 0
 
