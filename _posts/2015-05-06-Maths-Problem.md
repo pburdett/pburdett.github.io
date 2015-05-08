@@ -78,14 +78,11 @@ Assume \\( Q = 6 \\), then \\( R = 7 \Rightarrow S = 4 + W \Rightarrow W = 2,3,4
 
 Assume \\( Q = 7 \Rightarrow R = 8 \\). Contradiction.
 
-Hence the solution is **\\( Q = 5, R = 6, W = 2, S = 7 \\)**.
+Hence the solution is \\( Q = 5, R = 6, W = 2, S = 7 \\).
 
 The solution is therefore...
 
-	  9567
-	+ 1085
-	------
-	 10652
+\\[ 9567 + 1085 = 10652 \\]
 
 
 
