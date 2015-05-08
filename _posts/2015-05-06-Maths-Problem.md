@@ -1,3 +1,10 @@
+
+
+---
+layout: post
+title: An interesting Maths Problem
+---
+
 <head>
 ...
     <script type="text/javascript"
@@ -6,11 +13,6 @@
 ...
 </head>
 
-
----
-layout: post
-title: An interesting Maths Problem
----
 
 ### The question
 
