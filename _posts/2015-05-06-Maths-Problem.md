@@ -68,17 +68,17 @@ Now we shall go through some combinations...
 
 Assume \\( Q = 2 \\), then \\( R = 3 \Rightarrow S = 8 + W \Rightarrow W = 0 \\) or \\( 1 \\) Which is not possible as \\( T = 1 \\) and \\( U = 0 \\). Contradiction
 
-Assume \\( Q = 3, then \\( R = 4 \Rightarrow S = 7 + W \Rightarrow W = 2 \Rightarrow S = 9 \\). Which is not possible since \\( P = 9 \\). Contradiction
+Assume \\( Q = 3 \\), then \\( R = 4 \Rightarrow S = 7 + W \Rightarrow W = 2 \Rightarrow S = 9 \\). Which is not possible since \\( P = 9 \\). Contradiction
 
-Assume \\( Q = 4, then \\( R = 5 \Rightarrow S = 6 + W \Rightarrow W = 2 \\) or \\( 3 \\). If \\( W = 2 \Rightarrow S = 8 \\) or if \\( W = 3 \Rightarrow S = 9 \\). Both contradictions.
+Assume \\( Q = 4 \\), then \\( R = 5 \Rightarrow S = 6 + W \Rightarrow W = 2 \\) or \\( 3 \\). If \\( W = 2 \Rightarrow S = 8 \\) or if \\( W = 3 \Rightarrow S = 9 \\). Both contradictions.
 
-Assume \\( Q = 5 \\), then \\( R = 6 \Rightarrow S = 5 + W \Rightarrow W = 2 \\), \\( 3 \\) or \\( 4 \\). **If \\( W = 2 \Rightarrow S = 7 \\). This is a possible solution.** If \\( W = 3 \\), then S = 8 or if W = 4 then S = 9. Both contradictions.
+Assume \\( Q = 5 \\), then \\( R = 6 \Rightarrow S = 5 + W \Rightarrow W = 2 \\), \\( 3 \\) or \\( 4 \\). If \\( W = 2 \Rightarrow S = 7 \\). This is a possible solution. If \\( W = 3 \\), then \\( S = 8 \\) or \\( if W = 4 \\) then \\( S = 9 \\). Both contradictions.
 
-Assume Q = 6, then R = 7 => S = 4 + W => W = 2,3,4 or 5. If W = 2 => S = 6; If W = 3 => S = 7; If W = 4 => S = 8l If W = 5 => S = 9. All contradictions.
+Assume \\( Q = 6 \\), then \\( R = 7 \Rightarrow S = 4 + W \Rightarrow W = 2,3,4 or 5 \\). If \\( W = 2 \Rightarrow S = 6 \\); If \\( W = 3 \Rightarrow S = 7 \\); If \\( W = 4 \Rightarrow S = 8 \\). If \\( W = 5 \Rightarrow S = 9 \\). All contradictions.
 
-Assume Q = 7, then R = 8. Contradiction.
+Assume \\( Q = 7 \Rightarrow R = 8 \\). Contradiction.
 
-Hence the solution is **Q = 5, R = 6, W = 2, S = 7**.
+Hence the solution is **\\( Q = 5, R = 6, W = 2, S = 7 \\)**.
 
 The solution is therefore...
 
