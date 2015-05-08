@@ -25,11 +25,11 @@ Let's start by re-writing the equation
        T U R Q W  (c)
  
 
-Firstly, two number \\(<10^{3}\\) cannot sum to \\(>2x10^{4}\\) => <b>T = 1</b>
+Firstly, two number \\(<10^{3} \\) cannot sum to \\(>2x10^{4} \Rightarrow T = 1 \\)
 
-Since T = 1, 1000 < (b) < 2000 => P = 8 or 9 to ensure (c) > 10<sup>4</sup>
+Since \\(T = 1, 1000 \lt (b) \lt 2000 \Rightarrow P = 8 or 9 \\) to ensure \\((c) \gt 10^{4} \\)
 
-I will introduce some carry notation. Assuming k<sub>i</sub> = 1 or 0, the following equations hold:
+I will introduce some carry notation. Assuming (\\k_{i} = 1 or 0 \\), the following equations hold:
 
 >S + Q = 10 x k<sub>1</sub> + W
 	
