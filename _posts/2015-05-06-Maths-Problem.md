@@ -3,25 +3,97 @@ layout: post
 title: An interesting Maths Problem
 ---
 
+### The question
+
 I recently came across an interesting maths problem, aimed at 12-13year olds. It read...
 
-----------
+>Each different letter in the following addition sum represents a different digit from 0-9 inclusive (neither P nor T are equal to zero, and not the digits are used)
 
-Each different letter in the following addition sum represents a different digit from 0-9 inclusive (neither P nor T are equal to zero, and not the digits are used)
+> P Q R D + T U V Q = T U R Q W
 
---> P Q R D + T U V Q = T U R Q W <--
-
-Explaining your reasoning carefully, find which letters correspond to which digits.
+>Explaining your reasoning carefully, find which letters correspond to which digits.
 
 
---------
+### The mathematical solution
 
-## The solution
-
-
+Let's start by re-writing the equation
 
 
-## The python implementation
+         P Q R S  (a)
+      +  T U V Q  (b)
+      ----------------
+       T U R Q W  (c)
+ 
+
+Firstly, two number <10<sup>3</sup> cannot sum to >2x10<sup>4</sup> => <b>T = 1</b>
+
+Since T = 1, 1000 < (b) < 2000 => P = 8 or 9 to ensure (c) > 10<sup>4</sup>
+
+I will introduce some carry notation. Assuming k<sub>i</sub> = 1 or 0, the following equations hold:
+
+>S + Q = 10 x k<sub>1</sub> + W
+	
+>R + V + k<sub>1</sub> = 10 x k<sub>2</sub> + Q
+
+>Q + U + k<sub>2</sub> = 10 x k<sub>3</sub> + R
+
+>P + T + k<sub>3</sub> = 10 x k<sub>4</sub> + U
+
+Since T = 1, we know k<sub>4</sub> = 1
+
+if P = 8 => then Q + U must result in a carry => k<sub>3</sub> = 1 => P + T + k<sub>3</sub> = 10 => U = 0
+
+if P = 9 => Q + U might not result in a carry => P + T + k<sub>3</sub> = 9 + 1 + {1 or 0} = 10 or 11
+
+if 11 => U = 1 which is a contradiction as T = 1, but if 10 => U = 0
+
+Hence **U = 0** 
+
+
+
+Assume k<sub>3</sub> = 1   => Q + k<sub>2</sub> = 10 + R  => k<sub>2</sub> = 1 since digits are less than 10.
+=> Q = 9 + R which can only be solved if R = 0. Hence we have a contradiction.
+
+Hence k<sub>3</sub> = 0 => P + 1 + 0 = 10 => **P = 9**
+
+Q + k<sub>2</sub> = R = > k<sub>2</sub> = 1 since Q does not equal R
+
+Q + 1 + R + V + k<sub>1</sub> = 10 + Q + R
+=> V + k<sub>1</sub> = 9. Since P=9, **V = 8** and k<sub>1</sub> = 1
+
+S + Q = 10 + W and Q + 1 = R
+
+Now we shall go through some combinations...
+
+Assume Q = 2, then R = 3 => S = 8 + W => W = 0 or 1 Which is not possible as T = 1 and U = 0. Contradiction
+
+Assume Q = 3, then R = 4 => S = 7 + W => W = 2 => S = 9. Which is not possible since P = 9. Contradiction
+
+Assume Q = 4, then R = 5 => S = 6 + W => W = 2 or 3. If W = 2 => S = 8 or if W = 3 => S = 9. Both contradictions.
+
+Assume Q = 5, then R = 6 => S = 5 + W => W = 2, 3 or 4. **If W = 2, then S = 7. This is a possible solution.** If W = 3, then S = 8 or if W = 4 then S = 9. Both contradictions.
+
+Assume Q = 6, then R = 7 => S = 4 + W => W = 2,3,4 or 5. If W = 2 => S = 6; If W = 3 => S = 7; If W = 4 => S = 8l If W = 5 => S = 9. All contradictions.
+
+Assume Q = 7, then R = 8. Contradiction.
+
+Hence the solution is **Q = 5, R = 6, W = 2, S = 7**.
+
+The solution is therefore...
+
+	  9567
+	+ 1085
+	------
+	 10652
+
+
+
+
+
+
+
+
+### The python implementation
 
 I felt it would be a good exercise to attempt to solve this problem in python.
 
