@@ -29,17 +29,16 @@ Firstly, two numbers \\( \lt 10^{3} \\) cannot sum to \\( \gt 2 \times 10^{4} \R
 
 Since \\( T = 1, 1000 \lt (b) \lt 2000 \Rightarrow P = 8 \\) or \\( 9 \\) to ensure \\( (c) \gt 10^{4} \\)
 
-I will introduce some carry notation. Assuming \\(k_{i} = 1 \\) or (\\0 \\), the following equations hold:
-
->S + Q = 10 x k<sub>1</sub> + W
+I will introduce some carry notation. Assuming \\(k_{i} = 1 \\) or (\\ 0 \\), the following equations hold:
+\\[ S + Q = 10 \times k_{1} + W \\]
 	
->R + V + k<sub>1</sub> = 10 x k<sub>2</sub> + Q
+\\[ R + V + k_{1} = 10 \times k_{2} + Q \\]
 
->Q + U + k<sub>2</sub> = 10 x k<sub>3</sub> + R
+\\[ Q + U + k_{2} = 10 \times k_{3} + R \\]
 
->P + T + k<sub>3</sub> = 10 x k<sub>4</sub> + U
+\\[ P + T + k_{3} = 10 \times k_{4} + U \\]
 
-Since T = 1, we know k<sub>4</sub> = 1
+Since \\( T = 1 \)), we know \\( k_{4} = 1 \\)
 
 if P = 8 => then Q + U must result in a carry => k<sub>3</sub> = 1 => P + T + k<sub>3</sub> = 10 => U = 0
 
