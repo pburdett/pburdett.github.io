@@ -37,7 +37,7 @@ and sd
 
 $ R + V + k_{1} = 10 \times k_{2} + Q $
 
-\\( Q + U + k_{2} = 10 \times k_{3} + R \\) 
+'\( Q + U + k_{2} = 10 \times k_{3} + R '\)
 
 \\( P + T + k_{3} = 10 \times k_{4} + U \\)
 
