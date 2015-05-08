@@ -43,7 +43,7 @@ Since \\( T = 1 \\), we know \\( k_{4} = 1 \\)
 
 if \\( P = 8 \Rightarrow Q + U \\) must result in a carry \\( \Rightarrow k\_{3} = 1 \Rightarrow P + T + k\_{3} = 10 \Rightarrow U = 0 \\)
 
-if \\( P = 9 \Rightarrow Q + U \\) might not result in a carry \\( \Rightarrow P + T + k\_{3} \gt = 9 + 1 + k\_{3} = 10 or 11 \\)
+if \\( P = 9 \Rightarrow Q + U \\) might not result in a carry \\( \Rightarrow P + T + k\_{3} \gt = 9 + 1 + k\_{3} = 10 \\) or \\( 11 \\)
 
 if \\( 11 \Rightarrow U = 1 \\) which is a contradiction as \\( T = 1 \\), but if \\( 10 \Rightarrow U = 0 \\)
 
@@ -51,17 +51,18 @@ Hence \\( U = 0 \\)
 
 
 
-Assume k<sub>3</sub> = 1   => Q + k<sub>2</sub> = 10 + R  => k<sub>2</sub> = 1 since digits are less than 10.
-=> Q = 9 + R which can only be solved if R = 0. Hence we have a contradiction.
+Assume \\( k\_{3} = 1 \Rightarrow Q + k\_{2} = 10 + R  \Rightarrow k\_{2} = 1  \\) since digits are less than 10.
+\\( \Rightarrow Q = 9 + R \\) which can only be solved if \\( R = 0 \\). Hence we have a contradiction.
 
-Hence k<sub>3</sub> = 0 => P + 1 + 0 = 10 => **P = 9**
+Hence \\( k\_{3} = 0 \Rightarrow P + 1 + 0 = 10 \Rightarrow P = 9 \\)
 
-Q + k<sub>2</sub> = R = > k<sub>2</sub> = 1 since Q does not equal R
+\\( Q + k\_{2} = R \Rightarrow k\_{2} = 1 \\) since \\( Q \\) does not equal \\( R \\)
 
-Q + 1 + R + V + k<sub>1</sub> = 10 + Q + R
-=> V + k<sub>1</sub> = 9. Since P=9, **V = 8** and k<sub>1</sub> = 1
+\\( Q + 1 + R + V + k\_{1} = 10 + Q + R \\)
 
-S + Q = 10 + W and Q + 1 = R
+\\( \Rightarrow V + k\_{1} = 9 //) Since  \\( P = 9 \Rightarrow V = 8 \\) and \\( k\_{1} = 1 \\)
+
+\\( S + Q = 10 + W \\) and  \\( Q + 1 = R \\)
 
 Now we shall go through some combinations...
 
