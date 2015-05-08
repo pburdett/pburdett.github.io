@@ -25,7 +25,7 @@ Let's start by re-writing the equation
        T U R Q W  (c)
  
 
-Firstly, two number <10<sup>3</sup> cannot sum to >2x10<sup>4</sup> => <b>T = 1</b>
+Firstly, two number \\(<10^{3}\\) cannot sum to \\(>2x10^{4}\\) => <b>T = 1</b>
 
 Since T = 1, 1000 < (b) < 2000 => P = 8 or 9 to ensure (c) > 10<sup>4</sup>
 
@@ -65,7 +65,7 @@ S + Q = 10 + W and Q + 1 = R
 
 Now we shall go through some combinations...
 
-Assume Q = 2, then R = 3 => S = 8 + W => W = 0 or 1 Which is not possible as T = 1 and U = 0. Contradiction
+Assume \\(Q = 2\\), then R = 3 => S = 8 + W => W = 0 or 1 Which is not possible as T = 1 and U = 0. Contradiction
 
 Assume Q = 3, then R = 4 => S = 7 + W => W = 2 => S = 9. Which is not possible since P = 9. Contradiction
 
