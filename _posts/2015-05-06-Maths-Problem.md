@@ -31,13 +31,10 @@ Since \\( T = 1, 1000 \lt (b) \lt 2000 \Rightarrow P = 8 \\) or \\( 9 \\) to ens
 
 I will introduce some carry notation. Assuming \\( k_{i} = 1 \\) or \\( 0 \\), the following equations hold:
 
-\\( S + Q = 10 \times k_{1} + W \\)
-<br><br>
-\\( R + V + k_{1} = 10 \times k_{2} + Q \\)
-<br>
-\\( Q + U + k_{2} = 10 \times k_{3} + R \\)␣
-
-\\( P + T + k_{3} = 10 \times k_{4} + U \\)␣
+\\( S + Q = 10 \times k_{1} + W \\) <br><br>
+\\( R + V + k_{1} = 10 \times k_{2} + Q \\) <br>
+\\( Q + U + k_{2} = 10 \times k_{3} + R \\) 
+\\( P + T + k_{3} = 10 \times k_{4} + U \\)
 
 Since \\( T = 1 \\), we know \\( k_{4} = 1 \\)␣
 
